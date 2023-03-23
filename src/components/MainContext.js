@@ -4,7 +4,7 @@ import LanguageContext from '../context/LenguageContext';
 import ThemeContext from '../context/ThemeContext';
 import AuthContext from '../context/AuthContext';
 
-const Main = () => {
+const MainContext = () => {
   const{theme} = useContext(ThemeContext);
   const{texts} = useContext(LanguageContext);
   const{auth} = useContext(AuthContext);
@@ -18,4 +18,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default MainContext

@@ -3,7 +3,7 @@ import {useContext} from 'react';
 import LanguageContext from '../context/LenguageContext';
 import ThemeContext from '../context/ThemeContext';
 
-const Footer = () => {
+const FooterContext = () => {
   const{theme} = useContext(ThemeContext);
   const{texts} = useContext(LanguageContext);
   return (
@@ -13,4 +13,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default FooterContext

@@ -3,7 +3,7 @@ import AuthContext from '../context/AuthContext';
 import LanguageContext from '../context/LenguageContext';
 import ThemeContext from '../context/ThemeContext'
 
-const Header = () => {
+const HeaderContext = () => {
   const{theme, handleTheme} = useContext(ThemeContext);
   const{texts, handleLenguage} = useContext(LanguageContext);
   const{auth, handleAuth} = useContext(AuthContext);
@@ -24,4 +24,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default HeaderContext
