@@ -1,0 +1,20 @@
+
+
+.my-page{
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 70%;
+    background-color: #ccc;
+    
+}
+.my-page-dark{
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 70%;
+    background-color: black;
+}
+
+.dark{
+    background-color: #fff;
+    filter: invert(1);
+}
