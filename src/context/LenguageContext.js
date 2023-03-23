@@ -4,7 +4,7 @@ const LanguageContext = createContext();
 const initialLanguage = "es";
 const translations = {
   es: {
-    headerTitle: "Mi aplicación sin Context API",
+    headerTitle: "Mi aplicación con Context API",
     headerSubtitule: "Mi cabecera",
     headerLight: "Claro",
     headerDark: "Oscuro",
