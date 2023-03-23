@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Context API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Proyecto prueba con Context API y sin.
 
 ## Available Scripts
 
