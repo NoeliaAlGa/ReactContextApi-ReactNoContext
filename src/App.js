@@ -1,5 +1,5 @@
-import MyPage from "./components/MyPage";
-import MyPageContext from "./components/MyPageContext";
+import MyPage from "./components/MyPage/MyPage";
+import MyPageContext from "./components/MyPage/MyPageContext";
 import "./index.css"
 
 function App() {

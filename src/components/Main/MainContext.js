@@ -1,8 +1,8 @@
 import React from 'react'
 import {useContext} from 'react';
-import LanguageContext from '../context/LenguageContext';
-import ThemeContext from '../context/ThemeContext';
-import AuthContext from '../context/AuthContext';
+import LanguageContext from '../../context/LenguageContext';
+import ThemeContext from '../../context/ThemeContext';
+import AuthContext from '../../context/AuthContext';
 
 const MainContext = () => {
   const{theme} = useContext(ThemeContext);
